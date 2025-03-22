@@ -60,10 +60,24 @@ header {
 
 .profile p {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.navigations {
+  /* border: 1px solid red; */
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  font-size: 14px;
+}
+nav a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: var(--TXTCOLOR-1);
+  margin-left: 20px;
 }
