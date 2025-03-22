@@ -104,7 +104,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 25px ;
+  border-radius: 25px;
   padding-inline: 10px;
   padding-block: 7px;
   font-family: "Inter", sans-serif;
@@ -117,4 +117,14 @@ nav a:hover {
 }
 .intro-p-2 {
   margin-left: 4px;
+}
+
+.intro-header h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
