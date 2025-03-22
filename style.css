@@ -17,6 +17,9 @@ img {
   --BGCOLOR-DARK: #000;
   --TXTCOLOR-1: #fff;
   --TXTCOLOR-2: #999999;
+  --FONT-MEDIUM: 500;
+  --FONT-REGULAR: 400;
+  --FONT-LIGHT: 300;
 }
 /*END GLOBAL */
 
@@ -25,7 +28,7 @@ html {
 }
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   background-color: var(--BGCOLOR-DARK);
   color: var(--TXTCOLOR-1);
@@ -60,7 +63,7 @@ header {
 
 .profile p {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: var(--FONT-MEDIUM);
   font-style: normal;
   font-size: 16px;
   display: flex;
@@ -70,7 +73,7 @@ header {
 .navigations {
   /* border: 1px solid red; */
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   display: flex;
   font-size: 14px;
