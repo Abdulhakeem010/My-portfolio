@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,3 +10,25 @@ img{
   height: auto;
   object-fit: cover;
 }
+/*END RESET */
+
+
+/* GLOBAL */
+:root{
+  --BGCOLOR-DARK: #000;
+  --TXTCOLOR-1:#fff;
+  --TXTCOLOR-2:#999999;
+}
+/*END GLOBAL */
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--BGCOLOR-DARK);
+  color: var(--TXTCOLOR-1);
+}
+
