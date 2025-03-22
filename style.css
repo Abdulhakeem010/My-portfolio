@@ -36,7 +36,6 @@ body {
 }
 
 header {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +70,6 @@ header {
   justify-content: center;
 }
 .navigations {
-  border: 1px solid red;
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -79,7 +77,6 @@ header {
   font-size: 14px;
 }
 nav a {
-  /* border: 1px solid red; */
   text-decoration: none;
   color: var(--TXTCOLOR-1);
   margin-left: 30px;
