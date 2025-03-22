@@ -20,6 +20,7 @@ img {
   --FONT-MEDIUM: 500;
   --FONT-REGULAR: 400;
   --FONT-LIGHT: 300;
+  --TXTBG: rgba(255, 255, 255, 0.1);
 }
 /*END GLOBAL */
 
@@ -102,7 +103,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--TXTBG);
   border-radius: 25px;
   padding-inline: 10px;
   padding-block: 7px;
@@ -111,8 +112,8 @@ nav a:hover {
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
-  margin-bottom: 1.8rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  background-color: var(--TXTBG);
 }
 .intro-p-2 {
   margin-left: 4px;
