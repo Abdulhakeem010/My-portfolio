@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img{
+img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 /*END RESET */
 
-
 /* GLOBAL */
-:root{
+:root {
   --BGCOLOR-DARK: #000;
-  --TXTCOLOR-1:#fff;
-  --TXTCOLOR-2:#999999;
+  --TXTCOLOR-1: #fff;
+  --TXTCOLOR-2: #999999;
 }
 /*END GLOBAL */
 
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
-  font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: var(--BGCOLOR-DARK);
@@ -33,33 +32,34 @@ body{
   padding-inline: 10%;
 }
 
-header{
-  /* border: 1px solid red; */
+header {
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 1.2rem;
 }
 
-.profile{
+.profile {
   display: flex;
   align-items: center;
   gap: 0.7rem;
 }
 
-.profile img{
+.profile img {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--TXTCOLOR-2);
- display: flex;
- align-items: center;
- justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.profile p{
-  font-family: 'Inter', sans-serif;
+.profile p {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
