@@ -30,5 +30,20 @@ body{
   font-style: normal;
   background-color: var(--BGCOLOR-DARK);
   color: var(--TXTCOLOR-1);
+  padding-inline: 10%;
+}
+
+header{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
