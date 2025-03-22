@@ -41,6 +41,8 @@ header {
   align-items: center;
   padding-inline: 1rem;
   padding-block: 1.2rem;
+  border: 1px solid red;
+  margin-bottom: 10rem;
 }
 
 .profile {
@@ -81,7 +83,7 @@ nav a {
   color: var(--TXTCOLOR-1);
   margin-left: 30px;
 }
-nav a:first-child{
+nav a:first-child {
   margin-left: 0;
 }
 nav a:hover {
@@ -89,4 +91,30 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
   cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px ;
+  padding-inline: 10px;
+  padding-block: 7px;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  color: var(--TXTCOLOR-1);
+  margin-bottom: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.intro-p-2 {
+  margin-left: 4px;
 }
