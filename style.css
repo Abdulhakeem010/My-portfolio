@@ -151,48 +151,23 @@ nav a:hover {
   background-color: transparent;
   text-decoration: none;
   gap: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .arrow{
   width: 20px;
   height: 20px;
-  transition: fill 0.3s ease;
+  transition: transform 0.3s ease-in-out, fill 0.3s ease;
 }
 
-@keyframes flyAndReturn {
-  0% {
-    transform: translate(0, 0);
-    visibility: visible;
-  }
-
-  40% {
-    transform: translate(10px, -10px);
-    visibility: hidden;
-  }
-
-  41% {
-    transform: translate(0, 10px);
-    visibility: hidden;
-  }
-
-  42% {
-    visibility: visible;
-  }
-
-  100% {
-    transform: translate(0, 0);
-    visibility: visible;
-  }
-}
 
 .email-btn:hover {
   background-color: var(--TXTCOLOR-1);
   color: var(--BGCOLOR-DARK);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  /* transition: background-color 0.3s ease, transform 0.2s ease; */
 }
 .email-btn:hover .arrow {
-  animation: flyUpRightAndReset 0.s ease 
-  /* transform: translate(3px, -3px); 
-  transition: transform 0.3s ease; */
+  transform: translate(4px, -4px); /* Right by 5px, Up by 5px */
+  /* transition: transform 0.3s ease-in-out; */
 }
 
