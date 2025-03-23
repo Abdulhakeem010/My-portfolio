@@ -238,7 +238,7 @@ nav a:hover {
 
 .projects-card-p {
   font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-MEDIUM);
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
