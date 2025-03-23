@@ -157,17 +157,28 @@ nav a:hover {
 .arrow{
   width: 20px;
   height: 20px;
-  transition: transform 0.3s ease-in-out, fill 0.3s ease;
+  transition: transform 0.2s ease-in-out, fill 0.2s ease;
 }
+@keyframes moveUpRightAndBack {
+  0% {
+    transform: translate(0, 0);
+  }
 
+  50% {
+    transform: translate(5px, -5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
 
 .email-btn:hover {
   background-color: var(--TXTCOLOR-1);
   color: var(--BGCOLOR-DARK);
-  /* transition: background-color 0.3s ease, transform 0.2s ease; */
 }
 .email-btn:hover .arrow {
-  transform: translate(4px, -4px); /* Right by 5px, Up by 5px */
-  /* transition: transform 0.3s ease-in-out; */
+  animation: moveUpRightAndBack 0.65s ease forwards;
+  /* transform: translate(4px, -4px);  */
 }
 
