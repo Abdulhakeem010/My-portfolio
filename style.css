@@ -218,9 +218,7 @@ nav a:hover {
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* row-gap: 70px;  */
   column-gap: 35px;
-  border: 1px solid red;
 }
 .projects-card {
   border: 1px solid var(--TXTBG);
