@@ -179,6 +179,5 @@ nav a:hover {
 }
 .email-btn:hover .arrow {
   animation: moveUpRightAndBack 0.65s ease forwards;
-  /* transform: translate(4px, -4px);  */
 }
 
