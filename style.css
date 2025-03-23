@@ -134,6 +134,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8rem;
 }
 .email-btn  {
   display: flex;
@@ -152,7 +153,6 @@ nav a:hover {
   text-decoration: none;
   gap: 5px;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  /* margin-bottom: 10rem; */
 }
 
 .arrow{
@@ -173,6 +173,6 @@ nav a:hover {
   width: 1152px;
   height: 700px;
   object-fit: cover;
-  
+  border-radius: 50px;
 }
 
