@@ -168,3 +168,8 @@ nav a:hover {
   color: var(--BGCOLOR-DARK);
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+.arrow:hover {
+  background-color: #000;
+  transform: translateX(5px);
+  transition: transform 0.2s ease;
+}
