@@ -172,7 +172,8 @@ nav a:hover {
 .intro-img img {
   width: 1152px;
   height: 730px;
-  object-fit: cover;
   border-radius: 50px;
+  border: 1px solid var(--TXTCOLOR-2);
+  margin-bottom: 6rem;
 }
 
