@@ -132,3 +132,31 @@ nav a:hover {
 .styled-h1 {
   color: var(--TXTCOLOR-2);
 }
+
+.intro-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-btn  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--TXTCOLOR-1);
+  border-radius: 25px;
+  padding-inline: 40px;
+  padding-block: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal;
+  font-size: 16px;
+  color: var(--TXTCOLOR-1);
+  margin-top: 2.5rem;
+  background-color: transparent;
+}
+
+.arrow{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
