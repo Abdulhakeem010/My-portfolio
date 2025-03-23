@@ -217,21 +217,20 @@ nav a:hover {
 }
 
 .projects-container {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 10%; 
-  column-gap: 30px;
+  row-gap: 70px; 
+  column-gap: 35px;
 }
 .projects-card {
+  border: 1px solid var(--TXTBG);
   border-radius: 15px;
-  width: 560px;
+  width: 540px;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--TXTBG);
   background-color: var(--TXTBG);
   text-align: center;
   line-height: 14px;
