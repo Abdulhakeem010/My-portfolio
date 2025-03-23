@@ -159,25 +159,14 @@ nav a:hover {
   height: 20px;
   transition: transform 0.2s ease-in-out, fill 0.2s ease;
 }
-@keyframes moveUpRightAndBack {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  50% {
-    transform: translate(5px, -7px);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
 
 .email-btn:hover {
   background-color: var(--TXTCOLOR-1);
   color: var(--BGCOLOR-DARK);
 }
-.email-btn:hover .arrow {
-  animation: moveUpRightAndBack 0.7s ease forwards;
+
+  .email-btn:hover .arrow {
+    transform: translate(5px, -5px);
+    transition: transform 0.3s ease-in-out;
 }
 
