@@ -142,12 +142,12 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.5px solid var(--TXTCOLOR-1);
+  border: 1px solid var(--TXTCOLOR-1);
   border-radius: 25px;
   padding-inline: 40px;
   padding-block: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-MEDIUM);
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 16px;
   color: var(--TXTCOLOR-1);
