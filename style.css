@@ -166,7 +166,7 @@ nav a:hover {
 }
 
   .email-btn:hover .arrow {
-    transform: translate(5px, -5px);
+    transform: translate(3px, -4px);
     transition: transform 0.3s ease-in-out;
 }
 
