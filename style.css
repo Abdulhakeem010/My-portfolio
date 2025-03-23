@@ -144,7 +144,7 @@ nav a:hover {
   justify-content: center;
   border: 1px solid var(--TXTCOLOR-1);
   border-radius: 25px;
-  padding-inline: 40px;
+  padding-inline: 35px;
   padding-block: 12px;
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
