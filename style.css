@@ -127,6 +127,7 @@ nav a:hover {
   font-size: 80px;
   margin-bottom: 2.5rem;
   text-align: center;
+  line-height: 88px;
 }
 .styled-h1 {
   color: var(--TXTCOLOR-2);
@@ -192,7 +193,7 @@ nav a:hover {
   border: 1px solid var(--TXTBG);
   border-radius: 25px;
   padding-inline: 15px;
-  padding-block: 8px;
+  padding-block: 10px;
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-LIGHT);
   font-style: normal;
@@ -202,5 +203,15 @@ nav a:hover {
   background-color: var(--TXTBG);
   text-align: center;
   line-height: 14px;
+}
+
+.projects-h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 48px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  line-height: 56px;
 }
 
