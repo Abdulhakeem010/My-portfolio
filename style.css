@@ -152,6 +152,7 @@ nav a:hover {
   text-decoration: none;
   gap: 5px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  /* margin-bottom: 10rem; */
 }
 
 .arrow{
@@ -164,9 +165,14 @@ nav a:hover {
   background-color: var(--TXTCOLOR-1);
   color: var(--BGCOLOR-DARK);
 }
-
   .email-btn:hover .arrow {
     transform: translate(3px, -4px);
     transition: transform 0.3s ease-in-out;
+}
+.intro-img img {
+  width: 1152px;
+  height: 700px;
+  object-fit: cover;
+  
 }
 
