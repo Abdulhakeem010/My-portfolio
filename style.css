@@ -225,6 +225,7 @@ nav a:hover {
 }
 
 .projects-img {
+  border: 1px solid blue;
   border: 1px solid var(--TXTBG);
   border-radius: 15px;
   width: 540px;
@@ -249,6 +250,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: fit-content;
 }
 .year {
   margin-left: 20px;
