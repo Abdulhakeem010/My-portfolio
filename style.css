@@ -225,7 +225,6 @@ nav a:hover {
 }
 
 .projects-img {
-  border: 1px solid blue;
   border: 1px solid var(--TXTBG);
   border-radius: 15px;
   width: 540px;
@@ -240,7 +239,6 @@ nav a:hover {
 }
 
 .projects-card-p {
-  border: 1px solid red;
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
