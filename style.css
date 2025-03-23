@@ -124,6 +124,7 @@ nav a:hover {
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 80px;
+  margin-bottom: 2.5rem;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -151,7 +152,7 @@ nav a:hover {
   font-style: normal;
   font-size: 16px;
   color: var(--TXTCOLOR-1);
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
   background-color: transparent;
   text-decoration: none;
 }
@@ -160,4 +161,10 @@ nav a:hover {
   width: 20px;
   height: 20px;
   margin-left: 5px;
+}
+
+.email-btn:hover {
+  background-color: var(--TXTCOLOR-1);
+  color: var(--BGCOLOR-DARK);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
