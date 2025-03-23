@@ -178,6 +178,6 @@ nav a:hover {
   color: var(--BGCOLOR-DARK);
 }
 .email-btn:hover .arrow {
-  animation: moveUpRightAndBack 0.65s ease forwards;
+  animation: moveUpRightAndBack 0.7s ease forwards;
 }
 
