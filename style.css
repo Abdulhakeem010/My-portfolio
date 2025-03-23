@@ -221,7 +221,7 @@ nav a:hover {
   column-gap: 35px;
 }
 .projects-card {
-  
+  cursor: pointer;
 }
 
 .projects-img {
