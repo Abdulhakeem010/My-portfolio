@@ -244,3 +244,6 @@ nav a:hover {
   font-size: 20px;
   line-height: 28px;
 }
+.projects-card .year {
+  margin-left: 20px;
+}
