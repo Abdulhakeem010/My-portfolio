@@ -431,6 +431,23 @@ nav a:hover {
 .skill-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  
+  row-gap: 2rem;
+  column-gap: 8rem;
+}
+.skill-h{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--TXTCOLOR-2);
+}
+
+.digit{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--TXTCOLOR-1);
 }
