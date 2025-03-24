@@ -15,12 +15,14 @@ img {
 /* GLOBAL */
 :root {
   --BGCOLOR-DARK: #000;
+  --BGCOLOR-LIGHT: #fff;
   --TXTCOLOR-1: #fff;
   --TXTCOLOR-2: #999999;
   --FONT-MEDIUM: 500;
   --FONT-REGULAR: 400;
   --FONT-LIGHT: 300;
   --TXTBG: rgba(255, 255, 255, 0.1);
+  --BORDER: 1px solid red;
 }
 
 html {
@@ -36,7 +38,6 @@ body {
   padding-inline: 10%;
 }
 /*END GLOBAL */
-
 
 /* HEADER SYTLING */
 header {
@@ -95,7 +96,6 @@ nav a:hover {
   cursor: pointer;
 }
 /* END HEADER SYTLING */
-
 
 /* INTRO SYTLING */
 .intro {
@@ -186,14 +186,13 @@ nav a:hover {
 }
 /* END INTRO SYTLING */
 
-
 /* PROJECTS SYTLING */
 .projects {
   scroll-margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 6rem;
 }
 .projects-p {
@@ -226,19 +225,25 @@ nav a:hover {
 }
 
 .projects-container {
+  border: var(--BORDER);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 35px;
 }
 .projects-card {
+  border: var(--BORDER);
   cursor: pointer;
-  transition: 0.2s ease;;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .projects-img {
   border: 1px solid var(--TXTBG);
   border-radius: 15px;
-  width: 540px;
+  width: 555px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -250,6 +255,7 @@ nav a:hover {
 }
 
 .projects-card-p {
+  border: var(--BORDER);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -259,7 +265,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: fit-content;
+  width: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .year {
@@ -273,10 +279,10 @@ nav a:hover {
   text-decoration: none;
   color: var(--TXTCOLOR-1);
 }
-.project-link:hover .projects-card{
+.project-link:hover .projects-card {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
-  transform: scale(1.03); 
+  transform: scale(1.03);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .project-link:hover .year {
@@ -284,4 +290,3 @@ nav a:hover {
   transform: scale(1.1);
   transition: 0.2s ease;
 }
-
