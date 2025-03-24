@@ -321,7 +321,7 @@ nav a:hover {
   justify-content: center; */
 }
 .about-img {
-  width: 45%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -338,7 +338,7 @@ nav a:hover {
   align-items: flex-start;
   height: 100%;
   justify-content: center;
-  width: 55%;  
+  width: 50%;  
   padding-block: 4rem;
 }
 
