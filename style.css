@@ -360,4 +360,9 @@ nav a:hover {
 
 .about-h1{
   font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 48px;
+  margin-bottom: 3rem;
+  line-height: 56px;
 }
