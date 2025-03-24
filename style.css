@@ -224,14 +224,14 @@ nav a:hover {
   line-height: 56px;
 }
 
-.projects-container {
-  border: var(--BORDER);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 35px;
+.project-card-container {
+border: var(--BORDER);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 35px;
 }
+
 .projects-card {
-  border: var(--BORDER);
   cursor: pointer;
   transition: 0.2s ease;
   display: flex;
@@ -255,7 +255,6 @@ nav a:hover {
 }
 
 .projects-card-p {
-  border: var(--BORDER);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -283,10 +282,14 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
   transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
 }
 .project-link:hover .year {
   color: var(--TXTCOLOR-1);
   transform: scale(1.1);
   transition: 0.2s ease;
+}
+
+.project-text {
+  border: var(--BORDER);
 }
