@@ -472,23 +472,24 @@ nav a:hover {
 
 .marquee-text {
   display: flex;
-  padding-left: 100%;
-  animation: scroll-left 50s linear infinite;
-  font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-REGULAR);
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24px;
-  color: var(--TXTCOLOR-1);
+  /* padding-left: 100%; */
+  animation: scroll-left 10s linear infinite;
   width: max-content;
 }
+.marquee-text:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
 .marquee-group{
+  font-size: 18px;
+  line-height: 24px;
   display: flex;
 }
 
 .marquee-group span {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   padding-right: 50px; 
   white-space: nowrap;
@@ -498,6 +499,7 @@ nav a:hover {
 .marquee-group span img {
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 @keyframes scroll-left {
@@ -505,7 +507,7 @@ nav a:hover {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
@@ -529,10 +531,7 @@ nav a:hover {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-.marquee-text:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
+
 
 
 
