@@ -470,11 +470,6 @@ nav a:hover {
   border-radius: 20px;
 }
 
-/* .marquee {
-  display: flex;
-  width: max-content;
-  animation: scroll-left 50s linear infinite;
-} */
 .marquee-text {
   display: flex;
   padding-left: 100%;
