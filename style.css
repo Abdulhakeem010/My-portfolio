@@ -291,7 +291,6 @@ nav a:hover {
 }
 
 .project-text {
-  border: var(--BORDER);
   display: flex;
   justify-content: center;
   align-items: center;
