@@ -316,6 +316,7 @@ nav a:hover {
   border: var(--BORDER);
   display: flex;
   flex-direction: row;
+  height: 700px;
   /* align-items: center;
   justify-content: center; */
 }
@@ -355,7 +356,7 @@ nav a:hover {
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   background-color: var(--TXTBG);
   text-align: center;
   line-height: 14px; 
@@ -367,8 +368,12 @@ nav a:hover {
   font-style: normal;
   font-size: 48px; 
   line-height: 56px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   letter-spacing: 1px;
+  color: var(--TXTCOLOR-2);
+}
+.styled-h{
+  color: var(--TXTCOLOR-1);
 }
 
 .about-text p{
@@ -377,13 +382,14 @@ nav a:hover {
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 1rem;
+  line-height: 28px;
+  margin-bottom: 2rem;
 }
 
 .availability {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   gap: 0.8rem;
   background-color: rgba(0, 0, 0, 0.7);
@@ -397,6 +403,7 @@ nav a:hover {
   font-size: 14px;
   background-color: var(--TXTBG);
   border: 1px solid var(--TXTBG);
+  margin-inline: auto;
 }
 
 .dot {
