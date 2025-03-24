@@ -483,10 +483,10 @@ nav a:hover {
   width: max-content;
 }
 .marquee-group{
-  
+  display: flex;
 }
 
-.marquee-text span {
+.marquee-group span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -495,9 +495,18 @@ nav a:hover {
   gap: 10px;
 }
 
-.marquee-text span img {
+.marquee-group span img {
   width: 40px;
   height: 40px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .marquee-container::before,
@@ -526,13 +535,6 @@ nav a:hover {
 }
 
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 
 /* END ABOUT SYTLING */
