@@ -225,11 +225,10 @@ nav a:hover {
 }
 
 .project-card-container {
-  border: var(--BORDER);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 35px;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 .projects-card {
@@ -300,6 +299,10 @@ nav a:hover {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 40px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
