@@ -473,7 +473,7 @@ nav a:hover {
 .marquee-text {
   display: flex;
   /* padding-left: 0px; */
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 15s linear infinite;
   width: max-content;
 }
 .marquee-container:hover .marquee-text {
@@ -489,7 +489,7 @@ nav a:hover {
 
 .marquee-group span {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   padding-right: 50px;
   white-space: nowrap;
