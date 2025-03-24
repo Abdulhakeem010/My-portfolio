@@ -317,9 +317,8 @@ nav a:hover {
   flex-direction: row;
   margin-bottom: 6rem;
   height: 600px;
-  /* align-items: center;
-  justify-content: center; */
 }
+
 .about-img {
   width: 50%;
   height: 100%;
@@ -327,13 +326,15 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .about-img img {
    border: var(--TXTBG);
   width: 100%;
   height: 100%;
   border-radius: 25px;
 }
-.about-content{
+
+.about-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -372,6 +373,7 @@ nav a:hover {
   letter-spacing: 1px;
   color: var(--TXTCOLOR-2);
 }
+
 .styled-h{
   color: var(--TXTCOLOR-1);
 }
