@@ -232,6 +232,7 @@ nav a:hover {
 }
 .projects-card {
   cursor: pointer;
+  transition: 0.2s ease;;
 }
 
 .projects-img {
