@@ -468,6 +468,14 @@ nav a:hover {
   position: relative;
   margin-bottom: 5rem;
 }
+.marquee-container:hover .marquee-text{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.marquee-text:hover{
+  color: yellowgreen;
+
+}
 
 .marquee-text {
   display: inline-block;
