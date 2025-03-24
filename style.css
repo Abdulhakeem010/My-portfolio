@@ -362,7 +362,7 @@ nav a:hover {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
-  font-size: 48px;
+  /* font-size: 48px; */
+  /* line-height: 56px; */
   margin-bottom: 3rem;
-  line-height: 56px;
 }
