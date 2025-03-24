@@ -225,10 +225,11 @@ nav a:hover {
 }
 
 .project-card-container {
-border: var(--BORDER);
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-column-gap: 35px;
+  border: var(--BORDER);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 35px;
+  margin-bottom: 6rem;
 }
 
 .projects-card {
@@ -292,4 +293,13 @@ column-gap: 35px;
 
 .project-text {
   border: var(--BORDER);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline: 8rem;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 24px;
 }
