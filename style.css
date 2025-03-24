@@ -404,6 +404,7 @@ nav a:hover {
   background-color: var(--TXTBG);
   border: 1px solid var(--TXTBG);
   margin-inline: auto;
+  margin-bottom: 2rem;
 }
 
 .dot {
@@ -427,3 +428,9 @@ nav a:hover {
   }
 }
 
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  
+}
