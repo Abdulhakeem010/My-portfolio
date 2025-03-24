@@ -461,7 +461,7 @@ nav a:hover {
   /* white-space: nowrap; */
   border: 1px solid var(--TXTBG);
   background-color: hsla(0, 0%, 35%, 0.176);
-  height: 70px; 
+  height: 70px;
   display: flex;
   align-items: center;
   position: relative;
@@ -472,16 +472,16 @@ nav a:hover {
 
 .marquee-text {
   display: flex;
-  /* padding-left: 20px; */
+  /* padding-left: 0px; */
   animation: scroll-left 10s linear infinite;
   width: max-content;
 }
-.marquee-text:hover {
+.marquee-container:hover .marquee-text {
   animation-play-state: paused;
   cursor: pointer;
 }
 
-.marquee-group{
+.marquee-group {
   font-size: 18px;
   line-height: 24px;
   display: flex;
@@ -491,7 +491,7 @@ nav a:hover {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  padding-right: 50px; 
+  padding-right: 50px;
   white-space: nowrap;
   gap: 10px;
 }
@@ -530,10 +530,5 @@ nav a:hover {
   right: 0;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
 }
-
-
-
-
-
 
 /* END ABOUT SYTLING */
