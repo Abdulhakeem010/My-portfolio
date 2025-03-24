@@ -26,7 +26,7 @@ img {
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -312,6 +312,7 @@ nav a:hover {
 
 /* ABOUT SYTLING */
 .about-container {
+  scroll-margin-top: 80px;
   gap: 5rem;
   display: flex;
   flex-direction: row;
@@ -357,7 +358,7 @@ nav a:hover {
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   background-color: var(--TXTBG);
   text-align: center;
   line-height: 14px; 
