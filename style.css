@@ -317,7 +317,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   margin-bottom: 6rem;
-  height: 700px;
+  height: fit-content;
   /* align-items: center;
   justify-content: center; */
 }
@@ -341,7 +341,7 @@ nav a:hover {
   align-items: flex-start;
   justify-content: flex-start;
   width: 55%;  
-  padding-block: 4rem;
+  margin-block: 4rem;
 }
 
 .about-p p{
@@ -435,6 +435,7 @@ nav a:hover {
   row-gap: 2rem;
   column-gap: 8rem;
 }
+
 .skill-h{
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
