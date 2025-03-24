@@ -25,7 +25,7 @@ img {
   --BORDER: 1px solid red;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -309,7 +309,6 @@ nav a:hover {
 }
 /* END PROJECTS SYTLING */
 
-
 /* ABOUT SYTLING */
 .about-container {
   scroll-margin-top: 80px;
@@ -329,7 +328,7 @@ nav a:hover {
 }
 
 .about-img img {
-   border: var(--TXTBG);
+  border: var(--TXTBG);
   width: 100%;
   height: 100%;
   border-radius: 25px;
@@ -341,11 +340,11 @@ nav a:hover {
   align-items: flex-start;
   height: 100%;
   justify-content: center;
-  width: 50%;  
+  width: 50%;
   padding-block: 4rem;
 }
 
-.about-p p{
+.about-p p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -361,25 +360,25 @@ nav a:hover {
   margin-bottom: 1rem;
   background-color: var(--TXTBG);
   text-align: center;
-  line-height: 14px; 
+  line-height: 14px;
 }
 
-.about-h1 h1{
+.about-h1 h1 {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
-  font-size: 42px; 
+  font-size: 42px;
   line-height: 56px;
   margin-bottom: 1rem;
   letter-spacing: 1px;
   color: var(--TXTCOLOR-2);
 }
 
-.styled-h{
+.styled-h {
   color: var(--TXTCOLOR-1);
 }
 
-.about-text p{
+.about-text p {
   color: var(--TXTCOLOR-2);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -413,7 +412,7 @@ nav a:hover {
 .dot {
   height: 6px;
   width: 6px;
-  background-color: #22c55e; 
+  background-color: #22c55e;
   border-radius: 50%;
   box-shadow: 0 0 0 rgba(34, 197, 94, 0.7);
   animation: pulse 2s infinite;
@@ -438,7 +437,7 @@ nav a:hover {
   column-gap: 8rem;
 }
 
-.skill-h{
+.skill-h {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -447,7 +446,7 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
 }
 
-.digit{
+.digit {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -457,24 +456,44 @@ nav a:hover {
 }
 
 .marquee-container {
-  width: 100%; /* or any width you like */
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  border: 1px solid  var(--TXTBG);
-  background-color:  var(--TXTBG);
-  height: 50px; /* adjust height */
+  border: 1px solid var(--TXTBG);
+  background-color: rgb(255, 255, 255);
+  background-color: hsla(0, 0%, 35%, 0.176);
+  height: 60px; 
   display: flex;
   align-items: center;
   position: relative;
   margin-bottom: 5rem;
+  position: relative;
+  border-radius: 20px;
 }
-.marquee-container:hover .marquee-text{
+
+.marquee-container::before,
+.marquee-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 2;
+}
+
+.marquee-container::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.marquee-container::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.marquee-text:hover {
   animation-play-state: paused;
   cursor: pointer;
-}
-.marquee-text:hover{
-  color: yellowgreen;
-
 }
 
 .marquee-text {
@@ -497,6 +516,5 @@ nav a:hover {
     transform: translateX(-100%);
   }
 }
-
 
 /* END ABOUT SYTLING */
