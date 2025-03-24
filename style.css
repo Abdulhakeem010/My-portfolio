@@ -502,6 +502,10 @@ nav a:hover {
   object-fit: contain;
 }
 
+.spacer{
+  width: 100px;
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
