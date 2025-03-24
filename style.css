@@ -320,7 +320,8 @@ nav a:hover {
   justify-content: center; */
 }
 .about-img {
-  width: 50%;
+  border: var(--BORDER);
+  width: 45%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -332,11 +333,13 @@ nav a:hover {
   border-radius: 25px;
 }
 .about-content{
+  border: var(--BORDER);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 50%;  
+  width: 55%;  
+  padding-block: 4rem;
 }
 
 .about-p p{
@@ -365,4 +368,9 @@ nav a:hover {
   font-size: 48px; 
   line-height: 56px;
   margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+.about-text p{
+  color: var(--TXTCOLOR-2);
 }
