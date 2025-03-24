@@ -357,3 +357,7 @@ nav a:hover {
   text-align: center;
   line-height: 14px; 
 }
+
+.about-h1{
+  font-family: "Inter", sans-serif;
+}
