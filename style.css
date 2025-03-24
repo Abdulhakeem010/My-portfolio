@@ -316,7 +316,8 @@ nav a:hover {
   border: var(--BORDER);
   display: flex;
   flex-direction: row;
-  /* height: 700px; */
+  margin-bottom: 6rem;
+  height: 700px;
   /* align-items: center;
   justify-content: center; */
 }
