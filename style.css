@@ -76,7 +76,6 @@ header {
   justify-content: center;
 }
 .navigations {
-  border: var(--BORDER);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -91,17 +90,15 @@ nav a:first-child {
   margin-left: 0;
 }
 .resume-link {
-  border: var(--BORDER);
-  display: inline-block;
-  /* text-align: center; */
+  display: inline-flex;
+  align-items: center; 
+  gap: 8px; 
 }
 
 .resume-icon {
-  border: var(--BORDER);
-  display: inline-block;
   width: 24px;
   height: 24px;
-  /* vertical-align: bottom; */
+  vertical-align: middle;
 }
 
 nav a:hover {
