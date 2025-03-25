@@ -322,7 +322,8 @@ nav a:hover {
 
 /* ABOUT SYTLING */
 .about-container {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 150px;
+  border: var(--BORDER);
   gap: 5rem;
   display: flex;
   flex-direction: row;
