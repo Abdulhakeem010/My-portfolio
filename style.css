@@ -100,7 +100,7 @@ nav a:first-child {
   border: var(--BORDER);
   display: inline-block;
   text-align: center;
-  
+
   /* display: flex;
   align-items: center;
   justify-content: center;
@@ -108,8 +108,8 @@ nav a:first-child {
 }
 
 .resume-icon {
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   /* margin-left: 10px; */
 }
 
