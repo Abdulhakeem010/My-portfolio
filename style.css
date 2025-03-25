@@ -482,7 +482,7 @@ nav a:hover {
 
 .marquee-text {
   display: flex;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 25s linear infinite;
   width: max-content;
 }
 .marquee-container:hover .marquee-text {
@@ -512,7 +512,7 @@ nav a:hover {
 }
 
 .spacer{
-  width: 100px;
+  width: 70px;
 }
 
 @keyframes scroll-left {
@@ -543,5 +543,7 @@ nav a:hover {
   right: 0;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
 }
-
 /* END ABOUT SYTLING */
+
+
+/* START PROJECTS SYTLING */
