@@ -86,6 +86,7 @@ nav a {
   text-decoration: none;
   color: var(--TXTCOLOR-1);
   margin-left: 30px;
+  /* vertical-align: middle; */
   /* text-align: center; */
 }
 nav a:first-child {
@@ -95,7 +96,7 @@ nav a:first-child {
   border: var(--BORDER);
   display: inline-block;
   text-align: center;
-  /* vertical-align: middle; */
+  
 }
 
 .resume-icon {
@@ -103,7 +104,7 @@ nav a:first-child {
   display: inline-block;
   width: 24px;
   height: 24px;
-  /* vertical-align: middle; */
+  /* vertical-align: bottom; */
 }
 
 nav a:hover {
