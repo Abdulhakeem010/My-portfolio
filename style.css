@@ -39,7 +39,6 @@ body {
 }
 /*END GLOBAL */
 
-
 /* HEADER SYTLING */
 header {
   display: flex;
@@ -92,8 +91,8 @@ nav a:first-child {
 }
 .resume-link {
   display: inline-flex;
-  align-items: center; 
-  gap: 2.5px; 
+  align-items: center;
+  gap: 2.5px;
 }
 
 .resume-icon {
@@ -109,7 +108,6 @@ nav a:hover {
   transform: scale(1.1);
 }
 /* END HEADER SYTLING */
-
 
 /* INTRO SYTLING */
 .intro {
@@ -199,7 +197,6 @@ nav a:hover {
   margin-bottom: 6rem;
 }
 /* END INTRO SYTLING */
-
 
 /* PROJECTS SYTLING */
 .projects {
@@ -297,7 +294,7 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
   transform: scale(1.03);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */    /*  I would use this for the white theme*/
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */ /*  I would use this for the white theme*/
 }
 .project-link:hover .year {
   color: var(--TXTCOLOR-1);
@@ -323,7 +320,6 @@ nav a:hover {
   white-space: nowrap;
 }
 /* END PROJECTS SYTLING */
-
 
 /* ABOUT SYTLING */
 .about-container {
@@ -517,7 +513,7 @@ nav a:hover {
   object-fit: contain;
 }
 
-.spacer{
+.spacer {
   width: 70px;
 }
 
@@ -551,16 +547,15 @@ nav a:hover {
 }
 /* END ABOUT SYTLING */
 
-
 /* START EXPERIENCES SYTLING */
 .experiences-container {
-  border: var(--BORDER);
+  /* border: var(--BORDER); */
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
 }
-.experience-p{
+.experience-p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -579,7 +574,7 @@ nav a:hover {
   line-height: 14px;
   letter-spacing: -0.4px;
 }
-.experience-h1{
+.experience-h1 {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -589,8 +584,8 @@ nav a:hover {
   letter-spacing: -1.4px;
 }
 
-.experience-main-content{
-  border: var(--BORDER);
+.experience-main-content {
+  /* border: var(--BORDER); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -598,25 +593,23 @@ nav a:hover {
   /* gap: 100px; */
 }
 
-.experience-table{
+.experience-table {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   /* gap: 100px; */
 }
 
-.experience-main-h1{
-width: 50%;
+.experience-main-h1 {
+border: var(--BORDER);
 }
 
-.experience-main-p{
+.experience-main-p {
   width: 50%;
+  border: var(--BORDER);
 }
 
 /* END EXPERIENCES SYTLING */
-
-
 
 /* START WHY ME SYTLING */
 /* END WHY ME SYTLING */
