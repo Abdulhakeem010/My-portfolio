@@ -1,7 +1,10 @@
 const circle = document.querySelector(".circle");
 
 document.addEventListener("mousemove", (e) => {
-    circle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    setTimeout(() => {
+        circle.style.left = `${e.clientX}px`;
+        circle.style.top = `${e.clientY}px`;
+    }, 50); // Delayed movement
 });
 
 import Lenis from 'lenis'

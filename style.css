@@ -37,6 +37,16 @@ body {
   color: var(--TXTCOLOR-1);
   padding-inline: 10%;
 }
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none; 
+  transition: transform 0.05s linear; 
+}
 /*END GLOBAL */
 
 /* HEADER SYTLING */
@@ -740,12 +750,3 @@ nav a:hover {
 
 
 
-.circle {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 50%;
-  position: absolute;
-  pointer-events: none; 
-  transition: transform 0.05s linear; 
-}
