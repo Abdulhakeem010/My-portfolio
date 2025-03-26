@@ -734,7 +734,18 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
-
-
-
 /* END WHY ME SYTLING */
+
+
+
+
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none; 
+  transition: transform 0.05s linear; 
+}
