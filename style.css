@@ -554,6 +554,7 @@ nav a:hover {
 
 /* START EXPERIENCES SYTLING */
 .experiences-container {
+  border: var(--BORDER);
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -589,6 +590,7 @@ nav a:hover {
 }
 
 .experience-main-content{
+  border: var(--BORDER);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -605,11 +607,11 @@ nav a:hover {
 }
 
 .experience-main-h1{
-
+width: 50%;
 }
 
 .experience-main-p{
-
+  width: 50%;
 }
 
 /* END EXPERIENCES SYTLING */
