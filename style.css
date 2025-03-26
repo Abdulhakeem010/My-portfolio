@@ -37,8 +37,8 @@ body {
   color: var(--TXTCOLOR-1);
   padding-inline: 10%;
 }
-
 /*END GLOBAL */
+
 
 /* HEADER SYTLING */
 header {
@@ -108,6 +108,7 @@ nav a:hover {
   cursor: pointer;
 }
 /* END HEADER SYTLING */
+
 
 /* INTRO SYTLING */
 .intro {
@@ -197,17 +198,8 @@ nav a:hover {
   margin-bottom: 6rem;
   position: relative;
 }
-
- img::before {
-  content: "hey this is a test";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(203, 29, 29, 0.5);
-}
 /* END INTRO SYTLING */
+
 
 /* PROJECTS SYTLING */
 .projects {
