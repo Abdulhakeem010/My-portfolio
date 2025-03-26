@@ -548,5 +548,15 @@ nav a:hover {
 /* END ABOUT SYTLING */
 
 
+/* START EXPERIENCES SYTLING */
+.experiences-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* END EXPERIENCES SYTLING */
+
+
+
 /* START WHY ME SYTLING */
 /* END WHY ME SYTLING */
