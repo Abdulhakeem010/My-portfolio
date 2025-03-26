@@ -551,8 +551,9 @@ nav a:hover {
 /* START EXPERIENCES SYTLING */
 .experiences-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 /* END EXPERIENCES SYTLING */
 
