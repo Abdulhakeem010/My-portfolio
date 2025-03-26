@@ -105,7 +105,6 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
   cursor: pointer;
-  transform: scale(1.1);
 }
 /* END HEADER SYTLING */
 
@@ -195,6 +194,17 @@ nav a:hover {
   height: 730px;
   border-radius: 50px;
   margin-bottom: 6rem;
+  position: relative;
+}
+
+ img::before {
+  content: "hey this is a test";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(203, 29, 29, 0.5);
 }
 /* END INTRO SYTLING */
 
