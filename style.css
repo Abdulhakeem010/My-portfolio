@@ -668,4 +668,17 @@ nav a:hover {
   word-spacing: 4px;
   margin-bottom: 60px;
 }
+.why-me-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-me-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* END WHY ME SYTLING */
