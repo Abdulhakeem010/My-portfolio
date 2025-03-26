@@ -701,6 +701,7 @@ nav a:hover {
   flex-direction: column;
   align-items: flex-start;
   background-color: hsla(0, 0%, 35%, 0.175);
+  overflow-y: auto;
 }
 .why-me-icon{
   display: flex;
