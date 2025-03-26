@@ -109,6 +109,7 @@ nav a:hover {
 }
 /* END HEADER SYTLING */
 
+
 /* INTRO SYTLING */
 .intro {
   display: flex;
@@ -125,7 +126,7 @@ nav a:hover {
   padding-inline: 10px;
   padding-block: 10px;
   font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-LIGHT);
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
@@ -216,7 +217,7 @@ nav a:hover {
   padding-inline: 15px;
   padding-block: 10px;
   font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-LIGHT);
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
@@ -321,6 +322,7 @@ nav a:hover {
 }
 /* END PROJECTS SYTLING */
 
+
 /* ABOUT SYTLING */
 .about-container {
   /* scroll-margin-top: 50000px; */
@@ -328,7 +330,7 @@ nav a:hover {
   gap: 5rem;
   display: flex;
   flex-direction: row;
-  margin-bottom: 6rem;
+  margin-bottom: 160px;
   height: 600px;
 }
 
@@ -366,7 +368,7 @@ nav a:hover {
   padding-inline: 15px;
   padding-block: 10px;
   font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-LIGHT);
+  font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 14px;
   color: var(--TXTCOLOR-1);
@@ -477,7 +479,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 5rem;
+  margin-bottom: 160px;
   position: relative;
   border-radius: 20px;
 }
@@ -555,6 +557,26 @@ nav a:hover {
   justify-content: center;
   flex-direction: column;
 }
+.experience-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--TXTBG);
+  border-radius: 25px;
+  padding-inline: 15px;
+  padding-block: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  color: var(--TXTCOLOR-1);
+  margin-bottom: 36px;
+  background-color: var(--TXTBG);
+  text-align: center;
+  line-height: 14px;
+  letter-spacing: -0.4;
+}
+
 /* END EXPERIENCES SYTLING */
 
 
