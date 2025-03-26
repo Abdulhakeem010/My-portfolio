@@ -157,7 +157,7 @@ nav a:hover {
   justify-content: center;
   margin-bottom: 6rem;
 }
-.email-btn {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,11 +182,11 @@ nav a:hover {
   transition: transform 0.2s ease-in-out, fill 0.2s ease;
 }
 
-.email-btn:hover {
+.btn:hover {
   background-color: var(--TXTCOLOR-1);
   color: var(--BGCOLOR-DARK);
 }
-.email-btn:hover .arrow {
+.btn:hover .arrow {
   transform: translate(3px, -4px);
   transition: transform 0.3s ease-in-out;
 }
