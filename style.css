@@ -38,15 +38,6 @@ body {
   padding-inline: 10%;
 }
 
-.circle {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 50%;
-  position: fixed; /* Use fixed to keep it on the screen */
-  pointer-events: none; /* Prevent interaction */
-  transform: translate(-50%, -50%); /* Center it on the cursor */
-}
 /*END GLOBAL */
 
 /* HEADER SYTLING */
