@@ -742,6 +742,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   background-image: url("./img/lake-8844310_1280.jpg");
+  padding-block: 100px;
 }
 
 .contact-main-p {
