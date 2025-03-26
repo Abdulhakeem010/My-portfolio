@@ -261,7 +261,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--TXTBG);
+  background-color:hsla(0, 0%, 35%, 0.176);
   text-align: center;
   line-height: 14px;
 }
@@ -670,20 +670,25 @@ nav a:hover {
 }
 
 .why-me-content{
+  border: var(--BORDER);
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 32px;
 }
 
 .why-me-box{
   border: 1px solid var(--TXTBG);
+  border-radius: 20px;
   width: 33%;
   height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: hsla(0, 0%, 35%, 0.176);
 }
 
 
