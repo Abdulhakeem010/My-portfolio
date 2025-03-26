@@ -326,7 +326,6 @@ nav a:hover {
 /* ABOUT SYTLING */
 .about-container {
   /* scroll-margin-top: 50000px; */
-  border: var(--BORDER);
   gap: 100px;
   display: flex;
   flex-direction: row;
@@ -340,10 +339,12 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: #22c55e;
 }
 
 .about-img img {
-  border: var(--TXTBG);
+  /* border: var(--TXTBG); */
+  border: greenyellow;
   width: 100%;
   height: 100%;
   border-radius: 25px;
