@@ -681,7 +681,6 @@ nav a:hover {
 
 .why-me-box{
   padding-inline: 40px;
-  padding-block: auto;
   border: 1px solid var(--TXTBG);
   border-radius: 20px;
   width: 33%;
@@ -697,6 +696,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   /* border:  var(--TXTBG); */
+  border: 1px solid rgb(56, 56, 56);
   border-radius: 10px;
   background-color:hsla(0, 0%, 35%, 0.185) ;
   width: 50px;
