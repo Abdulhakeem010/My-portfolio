@@ -1,3 +1,9 @@
+const circle = document.querySelector(".circle");
+
+document.addEventListener("mousemove", (e) => {
+    circle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+});
+
 import Lenis from 'lenis'
 
 const lenis = new Lenis({
