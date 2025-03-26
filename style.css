@@ -39,7 +39,6 @@ body {
 }
 /*END GLOBAL */
 
-
 /* HEADER SYTLING */
 header {
   display: flex;
@@ -108,7 +107,6 @@ nav a:hover {
   cursor: pointer;
 }
 /* END HEADER SYTLING */
-
 
 /* INTRO SYTLING */
 .intro {
@@ -200,7 +198,6 @@ nav a:hover {
 }
 /* END INTRO SYTLING */
 
-
 /* PROJECTS SYTLING */
 .projects {
   scroll-margin-top: 80px;
@@ -264,7 +261,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:hsla(0, 0%, 35%, 0.176);
+  background-color: hsla(0, 0%, 35%, 0.176);
   text-align: center;
   line-height: 14px;
 }
@@ -323,7 +320,6 @@ nav a:hover {
   white-space: nowrap;
 }
 /* END PROJECTS SYTLING */
-
 
 /* ABOUT SYTLING */
 .about-container {
@@ -552,7 +548,6 @@ nav a:hover {
 }
 /* END ABOUT SYTLING */
 
-
 /* START EXPERIENCES SYTLING */
 .experiences-container {
   display: flex;
@@ -636,7 +631,6 @@ nav a:hover {
 }
 /* END EXPERIENCES SYTLING */
 
-
 /* START WHY ME SYTLING */
 .why-me-container {
   display: flex;
@@ -646,7 +640,7 @@ nav a:hover {
   margin-bottom: 160px;
 }
 
-.why-me-p{
+.why-me-p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -665,7 +659,7 @@ nav a:hover {
   line-height: 14px;
   letter-spacing: -0.4px;
 }
-.why-me-h1{
+.why-me-h1 {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -676,7 +670,7 @@ nav a:hover {
   margin-bottom: 60px;
 }
 
-.why-me-content{
+.why-me-content {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -686,7 +680,7 @@ nav a:hover {
   margin-bottom: 50px;
 }
 
-.why-me-box{
+.why-me-box {
   padding-inline: 40px;
   padding-top: 30px;
   border: 1px solid var(--TXTBG);
@@ -699,22 +693,22 @@ nav a:hover {
   background-color: hsla(0, 0%, 35%, 0.175);
   overflow-y: auto;
 }
-.why-me-icon{
+.why-me-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--TXTBG);
   border-radius: 10px;
-  background-color:hsla(0, 0%, 35%, 0.185) ;
+  background-color: hsla(0, 0%, 35%, 0.185);
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
 }
-.icon-y{
+.icon-y {
   width: 30px;
   height: 30px;
 }
-.why-me-header{
+.why-me-header {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-MEDIUM);
   font-style: normal;
@@ -722,7 +716,7 @@ nav a:hover {
   line-height: 28px;
   margin-bottom: 20px;
 }
-.why-me-text{
+.why-me-text {
   color: var(--TXTCOLOR-2);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -732,9 +726,8 @@ nav a:hover {
 }
 /* END WHY ME SYTLING */
 
-
 /* START CONTACT STYLING*/
-.contact-container{
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -742,7 +735,7 @@ nav a:hover {
   margin-bottom: 160px;
 }
 
-.contact-main{
+.contact-main {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -751,7 +744,7 @@ nav a:hover {
   background-image: url("./img/lake-8844310_1280.jpg");
 }
 
-.contact-main-p{
+.contact-main-p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -771,7 +764,7 @@ nav a:hover {
   letter-spacing: -0.4px;
 }
 
-.contact-main-h1{
+.contact-main-h1 {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -782,7 +775,7 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.contact-main p{
+.contact-main p {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -792,11 +785,11 @@ nav a:hover {
   margin-bottom: 36px;
 }
 
-.contact-main-btn{
-margin-bottom: 24px;
+.contact-main-btn {
+  margin-bottom: 24px;
 }
 
-.contact-main-link{
+.contact-main-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -806,11 +799,9 @@ margin-bottom: 24px;
   font-size: 14px;
   line-height: 20px;
 }
-.contact-main-link a{
+.contact-main-link a {
   text-decoration: none;
   color: var(--TXTCOLOR-1);
   margin-left: 3px;
 }
 /* END CONTACT STYLING*/
-
-
