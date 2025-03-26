@@ -580,7 +580,7 @@ nav a:hover {
   font-style: normal;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 100px;
+  margin-bottom: 95px;
   letter-spacing: -1.4px;
 }
 
@@ -599,13 +599,32 @@ nav a:hover {
 }
 
 .experience-main-h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
   width: 50%;
-border: var(--BORDER);
+  border: var(--BORDER);
 }
 
 .experience-main-p {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--TXTCOLOR-2);
   width: 50%;
   border: var(--BORDER);
+}
+.style{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-LIGHT);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  
 }
 
 /* END EXPERIENCES SYTLING */
