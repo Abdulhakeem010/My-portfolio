@@ -677,19 +677,56 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  margin-bottom: 50px;
 }
 
 .why-me-box{
+  padding-inline: 40px;
+  padding-block: auto;
   border: 1px solid var(--TXTBG);
   border-radius: 20px;
   width: 33%;
-  height: 280px;
+  height: 285px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: hsla(0, 0%, 35%, 0.175);
+}
+.why-me-icon{
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsla(0, 0%, 35%, 0.176);
+  /* border:  var(--TXTBG); */
+  border-radius: 10px;
+  background-color:hsla(0, 0%, 35%, 0.185) ;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
 }
+.icon-y{
+  width: 30px;
+  height: 30px;
+}
+.why-me-header{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  border: var(--BORDER);
+  margin-bottom: 30px;
+}
+.why-me-text{
+  color: var(--TXTCOLOR-2);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  border: var(--BORDER);
+}
+
 
 
 /* END WHY ME SYTLING */
