@@ -643,6 +643,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 160px;
 }
 
 .why-me-p{
@@ -732,6 +733,14 @@ nav a:hover {
 /* END WHY ME SYTLING */
 
 
-
+/* START CONTACT STYLING*/
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+/* END CONTACT STYLING*/
 
 
