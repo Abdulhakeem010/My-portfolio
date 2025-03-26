@@ -294,7 +294,7 @@ nav a:hover {
   color: var(--TXTCOLOR-2);
   transition: 0.3s;
   transform: scale(1.03);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */    /*  I would use this for the white theme*/
 }
 .project-link:hover .year {
   color: var(--TXTCOLOR-1);
