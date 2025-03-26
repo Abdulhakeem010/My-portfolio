@@ -596,7 +596,10 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-bottom: #999999 solid 1px;
+  border-bottom: 1px solid var(--TXTBG);
+  /* padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px; */
 }
 
 .experience-main-h1 {
@@ -618,7 +621,7 @@ nav a:hover {
   width: 50%;
 }
 
-.style{
+.style {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
@@ -626,7 +629,6 @@ nav a:hover {
   line-height: 24px;
   margin-left: 15px;
 }
-
 
 /* END EXPERIENCES SYTLING */
 
