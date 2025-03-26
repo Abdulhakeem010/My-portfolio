@@ -596,6 +596,16 @@ nav a:hover {
   /* gap: 100px; */
 }
 
+.experience-table{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* gap: 100px; */
+}
+
+.
+
 /* END EXPERIENCES SYTLING */
 
 
