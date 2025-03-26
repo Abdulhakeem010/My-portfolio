@@ -549,11 +549,12 @@ nav a:hover {
 
 /* START EXPERIENCES SYTLING */
 .experiences-container {
-  /* border: var(--BORDER); */
+  border: var(--BORDER); 
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 180px;
 }
 .experience-p {
   display: flex;
