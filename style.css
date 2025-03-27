@@ -35,7 +35,6 @@ body {
   font-style: normal;
   background-color: var(--BGCOLOR-DARK);
   color: var(--TXTCOLOR-1);
-  padding-inline: 10%;
 }
 /*END GLOBAL */
 
@@ -47,6 +46,7 @@ header {
   padding-inline: 1rem;
   padding-block: 1.2rem;
   margin-bottom: 8rem;
+  margin-inline: 10%;
 }
 
 .profile {
@@ -113,6 +113,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-inline: 10%;
 }
 .intro-p {
   display: flex;
@@ -205,6 +206,7 @@ nav a:hover {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 6rem;
+  margin-inline: 10%;
 }
 .projects-p {
   display: flex;
@@ -328,6 +330,7 @@ nav a:hover {
   flex-direction: row;
   margin-bottom: 160px;
   height: 600px;
+  margin-inline: 10%;
 }
 
 .about-img {
@@ -554,6 +557,7 @@ nav a:hover {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 180px;
+  margin-inline: 10%;
 }
 .experience-p {
   display: flex;
@@ -637,6 +641,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 160px;
+  margin-inline: 10%;
 }
 
 .why-me-p {
@@ -839,6 +844,7 @@ nav a:hover {
 .footer-container {
   display: flex;
   flex-direction: column;
+  margin-inline: 10%;
 }
 
 .footer-socials {
