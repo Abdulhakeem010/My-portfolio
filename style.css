@@ -836,7 +836,13 @@ nav a:hover {
   gap: 0.6rem;
   text-decoration: none;
   color: var(--TXTCOLOR-1);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal; 
+  font-size: 16px;
+  line-height: 20px;
 }
+
 .avatar {
   width: 2rem;
   height: 2rem;
