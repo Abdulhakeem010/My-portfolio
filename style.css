@@ -947,23 +947,7 @@ hr {
   font-size: 203px;
   line-height: 203.3px;
   letter-spacing: -10.2px;
-  background: linear-gradient(to right,var(--TXTCOLOR-2),var(--TXTCOLOR-1)) ;
+  background: linear-gradient(to right,#2b2b2b,var(--TXTCOLOR-2)) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  font-weight: var(--FONT-LIGHT);
-  font-style: normal;
-  font-size: 203px;
-  line-height: 203.3px;
-  letter-spacing: -10.2px;
-
-  background: linear-gradient(to right, var(--TXTCOLOR-2), var(--TXTCOLOR-1)); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
