@@ -55,7 +55,7 @@ header {
   gap: 0.7rem;
 }
 
-.profile img {
+.profile img .avatar{
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
