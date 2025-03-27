@@ -883,12 +883,12 @@ nav a:hover {
   align-items: flex-start;
   justify-content: flex-end;
 }
-.social-right p{
+.social-right a{
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
   color: var(--TXTCOLOR-2);
-  
+  text-decoration: none;
 }
