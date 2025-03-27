@@ -883,6 +883,13 @@ nav a:hover {
   align-items: flex-start;
   justify-content: flex-end;
 }
+.social-right-links-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
 .social-right a{
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
