@@ -899,21 +899,21 @@ nav a:hover {
 }
 hr {
   border: none;
-  height: 1px; 
-  background-color: rgba(255, 255, 255, 0.2); 
-  margin-block: 50px; 
-  width: 100%; 
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-block: 50px;
+  width: 100%;
 }
-.footer-content{
+.footer-content {
   display: flex;
   flex-direction: column;
 }
-.copyright-row{
+.copyright-row {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
 }
-.copyright{
+.copyright {
   color: var(--TXTCOLOR-2);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -922,7 +922,7 @@ hr {
   line-height: 20px;
   width: 50%;
 }
-.copyright-right{
+.copyright-right {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -936,18 +936,19 @@ hr {
   font-size: 14px;
   line-height: 20px;
 }
-.name{
+.name {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: var(--FONT-LIGHT);
   font-style: normal;
   font-size: 203px;
   line-height: 203.3px;
   letter-spacing: -10.2px;
-  background: linear-gradient(to right,#2b2b2b,#959595) ;
+  background: linear-gradient(to right, #2b2b2b, #959595);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
