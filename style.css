@@ -882,5 +882,12 @@ nav a:hover {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  gap: 20px;
+}
+.social-right p{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--TXTCOLOR-2);
 }
