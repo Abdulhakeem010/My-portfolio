@@ -813,6 +813,7 @@ nav a:hover {
 }
 
 .footer-socials {
+  border: var(--BORDER);
   display: flex;
   flex-direction: row;
 }
@@ -822,7 +823,8 @@ nav a:hover {
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  gap: 20px;
+  height: 100%;
+  /* gap: 23px; */
 }
 .social-left-avatar a {
   display: flex;
@@ -899,6 +901,6 @@ hr {
   border: none;
   height: 1px; 
   background-color: rgba(255, 255, 255, 0.2); 
-  margin-block: 30px; 
+  margin-block: 40px; 
   width: 100%; 
 }
