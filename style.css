@@ -813,7 +813,6 @@ nav a:hover {
 }
 
 .footer-socials {
-  border: var(--BORDER);
   display: flex;
   flex-direction: row;
 }
@@ -899,7 +898,7 @@ nav a:hover {
 hr {
   border: none;
   height: 1px; 
-  background-color: rgba(255, 255, 255, 0.15); 
-  margin-block: 20px; 
+  background-color: rgba(255, 255, 255, 0.2); 
+  margin-block: 30px; 
   width: 100%; 
 }
