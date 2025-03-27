@@ -818,7 +818,7 @@ nav a:hover {
   /* align-items: flex-start;
   justify-content: flex-start; */
   /* gap: 20px; */
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .social-left {
   display: flex;
@@ -826,7 +826,7 @@ nav a:hover {
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  gap: 25px;
+  gap: 20px;
 }
 .social-left-avatar a{
   display: flex;
@@ -861,6 +861,15 @@ nav a:hover {
   line-height: 20px;
   color: var(--TXTCOLOR-2);
 }
-.nowrap {
-  white-space: wrap;
+.social-left-mail a {
+  text-decoration: none;
+  color: var(--TXTCOLOR-2);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal; 
+  font-size: 14px;
+  line-height: 20px;
+}
+.social-left-mail a:hover{
+  text-decoration: underline;
 }
