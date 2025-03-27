@@ -947,7 +947,7 @@ hr {
   font-size: 203px;
   line-height: 203.3px;
   letter-spacing: -10.2px;
-  background: linear-gradient(to right,#2b2b2b,var(--TXTCOLOR-2)) ;
+  background: linear-gradient(to right,#2b2b2b,#959595) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
