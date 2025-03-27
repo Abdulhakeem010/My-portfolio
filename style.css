@@ -907,3 +907,7 @@ hr {
   display: flex;
   flex-direction: column;
 }
+.copyright-row{
+  display: flex;
+  flex-direction: row;
+}
