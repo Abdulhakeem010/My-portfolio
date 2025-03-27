@@ -822,7 +822,6 @@ nav a:hover {
   margin-bottom: 60px;
 }
 .social-left {
-  border: var(--BORDER);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -877,9 +876,7 @@ nav a:hover {
 }
 .social-right{
   width: 50%;
-  border: var(--BORDER);
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
 }
