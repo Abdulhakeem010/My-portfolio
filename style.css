@@ -911,3 +911,12 @@ hr {
   display: flex;
   flex-direction: row;
 }
+.copyright{
+  color: var(--TXTCOLOR-2);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 50%;
+}
