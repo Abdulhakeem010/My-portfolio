@@ -875,6 +875,7 @@ nav a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
+  gap: 80px;
 }
 .social-right-links-container {
   display: flex;
@@ -910,6 +911,7 @@ hr {
 .copyright-row{
   display: flex;
   flex-direction: row;
+  margin-bottom: 70px;
 }
 .copyright{
   color: var(--TXTCOLOR-2);
@@ -919,4 +921,18 @@ hr {
   font-size: 14px;
   line-height: 20px;
   width: 50%;
+}
+.copyright-right{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 50%;
+  color: var(--TXTCOLOR-2);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
 }
