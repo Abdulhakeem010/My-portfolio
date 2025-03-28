@@ -749,7 +749,6 @@ nav a:hover {
   justify-content: center;
   background-image: url("./img/374742.png");
   object-fit: contain;
-  /* background-repeat: no-repeat; */
   padding-block: 100px;
   height: 600px;
 }
