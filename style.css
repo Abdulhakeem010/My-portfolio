@@ -750,6 +750,7 @@ nav a:hover {
   background-image: url("./img/lake-8844310_1280.jpg");
   padding-block: 100px;
   border: var(--BORDER);
+  height: 600px;
 }
 .contact-content{
   display: flex;
@@ -769,7 +770,7 @@ nav a:hover {
   background: linear-gradient(
     to bottom, 
     rgba(0, 0, 0, 0.9) 0%,  
-    rgba(0, 0, 0, 0.6) 50%, 
+    rgba(0, 0, 0, 0.65) 50%, 
     rgba(0, 0, 0, 0.9) 100% 
   );
   z-index: 1; 
