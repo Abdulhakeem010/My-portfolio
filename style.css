@@ -12,6 +12,7 @@ img {
 }
 /*END RESET */
 
+
 /* GLOBAL */
 :root {
   --BGCOLOR-DARK: #000;
@@ -37,6 +38,7 @@ body {
   color: var(--TXTCOLOR-1);
 }
 /*END GLOBAL */
+
 
 /* HEADER SYTLING */
 header {
@@ -106,6 +108,7 @@ nav a:hover {
   cursor: pointer;
 }
 /* END HEADER SYTLING */
+
 
 /* INTRO SYTLING */
 .intro {
@@ -197,6 +200,7 @@ nav a:hover {
   position: relative;
 }
 /* END INTRO SYTLING */
+
 
 /* PROJECTS SYTLING */
 .projects {
@@ -321,6 +325,7 @@ nav a:hover {
   white-space: nowrap;
 }
 /* END PROJECTS SYTLING */
+
 
 /* ABOUT SYTLING */
 .about-container {
@@ -550,6 +555,7 @@ nav a:hover {
 }
 /* END ABOUT SYTLING */
 
+
 /* START EXPERIENCES SYTLING */
 .experiences-container {
   display: flex;
@@ -633,6 +639,7 @@ nav a:hover {
   margin-left: 15px;
 }
 /* END EXPERIENCES SYTLING */
+
 
 /* START WHY ME SYTLING */
 .why-me-container {
@@ -840,6 +847,7 @@ nav a:hover {
   text-decoration: underline;
 }
 /* END CONTACT STYLING*/
+
 
 /* START FOOTER SYTLING */
 .footer-container {
