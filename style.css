@@ -751,7 +751,6 @@ nav a:hover {
   object-fit: contain;
   /* background-repeat: no-repeat; */
   padding-block: 100px;
-  /* border: var(--BORDER); */
   height: 600px;
 }
 .contact-content{
