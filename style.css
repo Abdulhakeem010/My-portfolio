@@ -491,7 +491,8 @@ nav a:hover {
   margin-bottom: 160px;
   position: relative;
   border-radius: 20px;
-  margin-inline: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .marquee-text {
