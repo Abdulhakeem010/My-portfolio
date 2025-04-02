@@ -1,4 +1,115 @@
-body {
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/*END RESET */
+
+
+/* GLOBAL */
+:root {
+  --BGCOLOR-DARK: #000;
+  --BGCOLOR-LIGHT: #fff;
+  --TXTCOLOR-1: #fff;
+  --TXTCOLOR-2: #999999;
+  --FONT-MEDIUM: 500;
+  --FONT-REGULAR: 400;
+  --FONT-LIGHT: 300;
+  --TXTBG: rgba(255, 255, 255, 0.1);
+  --BORDER: 1px solid red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  background-color: var(--BGCOLOR-DARK);
+  color: var(--TXTCOLOR-1);
+}
+section{
+  scroll-margin-top: 100px;
+}
+/*END GLOBAL */
+
+
+/* HEADER SYTLING */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  padding-block: 1.2rem;
+  margin-bottom: 8rem;
+  margin-inline: 10%;
+  z-index: 1000;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.profile img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--TXTCOLOR-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile p {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigations {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--TXTCOLOR-1);
+  margin-left: 30px;
+}
+nav a:first-child {
+  margin-left: 0;
+}
+.resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2.5px;
+}
+
+.resume-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+nav a:hover {
+  color: var(--TXTCOLOR-2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* END HEADER SYTLING */
 
