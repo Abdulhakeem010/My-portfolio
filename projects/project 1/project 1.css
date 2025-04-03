@@ -238,7 +238,12 @@ ol {
 ul,ol{
   list-style-position: inside;
 }
-
+.bold{
+  font-family: "Inter",sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
 
 /* END PROJECT CONTENT STYLING */
 
