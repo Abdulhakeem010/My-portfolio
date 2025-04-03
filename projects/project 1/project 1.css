@@ -155,6 +155,9 @@ nav a:hover {
   line-height: 24px;
   margin-bottom: px;
 }
+.wrap{
+  white-space: wrap;
+}
 
 
 
