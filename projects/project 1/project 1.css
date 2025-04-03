@@ -113,6 +113,13 @@ nav a:hover {
 }
 /* END HEADER SYTLING */
 
+.project-detail-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* START CONTACT STYLING*/
 .contact-container {
   display: flex;
