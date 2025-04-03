@@ -143,9 +143,28 @@ nav a:hover {
   font-style: normal;
   font-size: 64px;
   line-height: 72px;
-  margin-bottom: 95px;
+  margin-bottom: 35px;
   letter-spacing: -1.9px;
 }
+.p2{
+  color: var(--TXTCOLOR-2);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* START CONTACT STYLING*/
 .contact-container {
