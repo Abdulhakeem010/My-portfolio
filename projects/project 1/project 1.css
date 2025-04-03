@@ -164,10 +164,16 @@ nav a:hover {
 }
 
 .detail-tag {
+  color: var(--TXTCOLOR-2);
   border: 1px solid var(--TXTBG);
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   background-color: var(--LIGHT-TXTBG);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 
