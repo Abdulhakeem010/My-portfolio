@@ -188,7 +188,12 @@ nav a:hover {
   color: var(--TXTCOLOR-1);
   text-decoration: underline;
 }
-
+.project-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 
 
