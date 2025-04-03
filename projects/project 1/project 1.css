@@ -175,6 +175,9 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
+.detail-tag img{
+  margin-right: 7px;
+}
 .detail-tag a{
   text-decoration: none;
   color: var(--TXTCOLOR-2);
