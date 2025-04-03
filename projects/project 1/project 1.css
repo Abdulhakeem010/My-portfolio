@@ -22,7 +22,7 @@ img {
   --FONT-REGULAR: 400;
   --FONT-LIGHT: 300;
   --TXTBG: rgba(255, 255, 255, 0.1);
-  --LIGHT-TXTBG:hsla(0, 0%, 35%, 0.175);
+  --LIGHT-TXTBG: hsla(0, 0%, 35%, 0.175);
   --BORDER: 1px solid red;
 }
 
@@ -112,6 +112,10 @@ nav a:hover {
 }
 /* END HEADER SYTLING */
 
+.project-content {
+  margin-inline: 10%;
+}
+
 .project-detail-container {
   display: flex;
   flex-direction: column;
@@ -176,41 +180,34 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
-.detail-tag img{
+.detail-tag img {
   margin-right: 7px;
 }
-.detail-tag a{
+.detail-tag a {
   text-decoration: none;
   color: var(--TXTCOLOR-2);
   transition: 0.3s ease;
 }
-.detail-tag a:hover{
+.detail-tag a:hover {
   color: var(--TXTCOLOR-1);
   text-decoration: underline;
 }
-.project-image-container{
+.project-images-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
+  gap: 20px;
+  border-radius: 5px;
+  margin-bottom: 5rem;
 }
 
-.project-image{
+.project-image {
   width: 33%;
-  height: 100px;
+  height: 300px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: var(--TXTCOLOR-1);
+  border: 1px solid var(--TXTCOLOR-2);
+  border-radius: 5px;
 }
-
-
-
-
-
-
-
 
 /* START CONTACT STYLING*/
 .contact-container {
