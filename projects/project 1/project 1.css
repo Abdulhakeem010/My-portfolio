@@ -214,6 +214,11 @@ nav a:hover {
 .project-image img{
   border-radius: 5px;
 }
+
+.text-container{
+  margin-inline: 20%;
+  margin-bottom: 8rem;
+}
 /* START PROJECT CONTENT STYLING */
 
 
