@@ -12,7 +12,6 @@ img {
 }
 /*END RESET */
 
-
 /* GLOBAL */
 :root {
   --BGCOLOR-DARK: #000;
@@ -42,7 +41,6 @@ section {
   scroll-margin-top: 100px;
 }
 /*END GLOBAL */
-
 
 /* HEADER SYTLING */
 header {
@@ -211,16 +209,36 @@ nav a:hover {
   border: 1px solid var(--TXTCOLOR-2);
   border-radius: 5px;
 }
-.project-image img{
+.project-image img {
   border-radius: 5px;
 }
 
-.text-container{
+.text-container {
   margin-inline: 20%;
   margin-bottom: 8rem;
 }
-/* START PROJECT CONTENT STYLING */
-
+.text-container h2{
+  font-family:  "Inter", sans-serif;
+  font-weight: var(--FONT-MEDIUM);
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.text-container p,
+ul,
+ol {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--TXTCOLOR-2);
+  margin-bottom: 20px;
+}
+ul,ol{
+  
+}
+/* END PROJECT CONTENT STYLING */
 
 /* START CONTACT STYLING*/
 .contact-container {
@@ -359,7 +377,6 @@ nav a:hover {
   text-decoration: underline;
 }
 /* END CONTACT STYLING*/
-
 
 /* START FOOTER SYTLING */
 .footer-container {
