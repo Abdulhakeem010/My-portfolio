@@ -236,7 +236,7 @@ ol {
   margin-bottom: 20px;
 }
 ul,ol{
-  
+  list-style-position: inside;
 }
 /* END PROJECT CONTENT STYLING */
 
