@@ -50,7 +50,7 @@ header {
   align-items: center;
   padding-inline: 1rem;
   padding-block: 1.2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 7rem;
   margin-inline: 10%;
   z-index: 1000;
 }
@@ -125,7 +125,7 @@ nav a:hover {
   justify-content: center;
   border: 1px solid var(--TXTBG);
   border-radius: 25px;
-  padding-inline: 10px;
+  padding-inline: 15px;
   padding-block: 10px;
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -136,6 +136,15 @@ nav a:hover {
   background-color: var(--TXTBG);
   text-align: center;
   line-height: 14px;
+}
+.project-detail-container h1{
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 95px;
+  letter-spacing: -1.9px;
 }
 
 /* START CONTACT STYLING*/
