@@ -178,11 +178,11 @@ nav a:hover {
 .detail-tag a{
   text-decoration: none;
   color: var(--TXTCOLOR-2);
+  transition: 0.3s ease;
 }
 .detail-tag a:hover{
   color: var(--TXTCOLOR-1);
   text-decoration: underline;
- 
 }
 
 
