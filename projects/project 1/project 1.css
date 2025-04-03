@@ -147,6 +147,8 @@ nav a:hover {
   letter-spacing: -1.9px;
 }
 .p2{
+  border: var(--BORDER);
+  text-align: center;
   color: var(--TXTCOLOR-2);
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -154,9 +156,6 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: px;
-}
-.wrap{
-  white-space: wrap;
 }
 
 
