@@ -119,6 +119,24 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+.p1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--TXTBG);
+  border-radius: 25px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: var(--FONT-REGULAR);
+  font-style: normal;
+  font-size: 14px;
+  color: var(--TXTCOLOR-1);
+  margin-bottom: 1rem;
+  background-color: var(--TXTBG);
+  text-align: center;
+  line-height: 14px;
+}
 
 /* START CONTACT STYLING*/
 .contact-container {
