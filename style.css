@@ -496,12 +496,11 @@ nav a:hover {
 
 .marquee-text {
   display: flex;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 15s linear infinite;
   width: max-content;
 }
 .marquee-container:hover .marquee-text {
   animation-play-state: paused;
-  cursor: pointer;
 }
 
 .marquee-group {
