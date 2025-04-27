@@ -220,7 +220,7 @@ nav a:hover {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 6rem;
-  margin-inline: 10%;
+  padding-inline: 10%;
 }
 .projects-p {
   display: flex;
@@ -252,6 +252,7 @@ nav a:hover {
 }
 
 .project-card-container {
+  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 35px;
