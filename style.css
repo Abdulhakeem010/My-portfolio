@@ -201,7 +201,8 @@ nav a:hover {
   transition: transform 0.3s ease-in-out;
 }
 .intro-img{
-  width: 80%;
+  border: 1px solid red;
+  width: 100%;
 }
 .intro-img img {
   /* width: 1152px; */
