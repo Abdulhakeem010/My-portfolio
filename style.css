@@ -201,15 +201,16 @@ nav a:hover {
   transition: transform 0.3s ease-in-out;
 }
 .intro-img{
-  border: 1px solid red;
   width: 100%;
+  border: 1px solid red;
+  margin-bottom: 6rem;
 }
 .intro-img img {
+  border: 1px solid red;
   /* width: 1152px; */
   width: 100%;
   height: 700px;
   border-radius: 50px;
-  margin-bottom: 6rem;
   position: relative;
 }
 /* END INTRO SYTLING */
