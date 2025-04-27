@@ -124,7 +124,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-inline: 10%;
+  padding-inline: 10%;
 }
 .intro-p {
   display: flex;
