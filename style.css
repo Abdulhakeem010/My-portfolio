@@ -877,6 +877,10 @@ nav a:hover {
   font-size: 16px;
   line-height: 20px;
 }
+.social-left-avatar a:hover,
+.social-left-avatar a:focus {
+  text-decoration: underline;
+}
 
 .avatar {
   width: 2rem;
