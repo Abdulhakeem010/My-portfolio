@@ -12,7 +12,6 @@ img {
 }
 /*END RESET */
 
-
 /* GLOBAL */
 :root {
   --BGCOLOR-DARK: #000;
@@ -37,11 +36,10 @@ body {
   background-color: var(--BGCOLOR-DARK);
   color: var(--TXTCOLOR-1);
 }
-section{
+section {
   scroll-margin-top: 100px;
 }
 /*END GLOBAL */
-
 
 /* HEADER SYTLING */
 header {
@@ -71,7 +69,7 @@ header {
   justify-content: center;
 }
 
-.profile a {
+.profile a:any-link {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-MEDIUM);
   font-style: normal;
@@ -82,6 +80,11 @@ header {
   text-decoration: none;
   color: var(--TXTCOLOR-1);
 }
+.profile a:hover,
+.profile a:focus {
+  color: var(--TXTCOLOR-2);
+}
+
 .navigations {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-REGULAR);
@@ -114,7 +117,6 @@ nav a:hover {
   cursor: pointer;
 }
 /* END HEADER SYTLING */
-
 
 /* INTRO SYTLING */
 .intro {
@@ -206,7 +208,6 @@ nav a:hover {
   position: relative;
 }
 /* END INTRO SYTLING */
-
 
 /* PROJECTS SYTLING */
 
@@ -332,7 +333,6 @@ nav a:hover {
 }
 /* END PROJECTS SYTLING */
 
-
 /* ABOUT SYTLING */
 .about-container {
   gap: 100px;
@@ -356,7 +356,7 @@ nav a:hover {
   border: 1px solid var(--TXTBG);
   width: 100%;
   height: 100%;
-  border-radius: 25px; 
+  border-radius: 25px;
 }
 
 .about-content {
@@ -559,7 +559,6 @@ nav a:hover {
 }
 /* END ABOUT SYTLING */
 
-
 /* START EXPERIENCES SYTLING */
 .experiences-container {
   display: flex;
@@ -643,7 +642,6 @@ nav a:hover {
   margin-left: 15px;
 }
 /* END EXPERIENCES SYTLING */
-
 
 /* START WHY ME SYTLING */
 .why-me-container {
@@ -741,7 +739,6 @@ nav a:hover {
 }
 /* END WHY ME SYTLING */
 
-
 /* START CONTACT STYLING*/
 .contact-container {
   display: flex;
@@ -763,7 +760,7 @@ nav a:hover {
   padding-block: 100px;
   height: 600px;
 }
-.contact-content{
+.contact-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -771,20 +768,15 @@ nav a:hover {
   position: relative;
   z-index: 2;
 }
-.contact-main::before{
+.contact-main::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to bottom, 
-    rgba(0, 0, 0, 0.95) 0%,  
-    rgba(0, 0, 0, 0.7) 50%, 
-    rgba(0, 0, 0, 0.95) 100% 
-  );
-  z-index: 1; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.95) 100%);
+  z-index: 1;
 }
 
 .contact-main-p {
@@ -847,11 +839,10 @@ nav a:hover {
   color: var(--TXTCOLOR-1);
   margin-left: 3px;
 }
-.contact-main-link a:hover{
+.contact-main-link a:hover {
   text-decoration: underline;
 }
 /* END CONTACT STYLING*/
-
 
 /* START FOOTER SYTLING */
 .footer-container {
