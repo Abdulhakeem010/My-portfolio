@@ -71,7 +71,7 @@ header {
   justify-content: center;
 }
 
-.profile p {
+.profile a {
   font-family: "Inter", sans-serif;
   font-weight: var(--FONT-MEDIUM);
   font-style: normal;
